@@ -1,0 +1,49 @@
+/*CORES*/
+.purple{
+    background-color: #9353ff!important;
+}
+.green{
+    color: #daff01;
+}
+/*CARROSSEL*/
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 425px){
+    .posicao{
+        top:47%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1200px){
+    .posicao{
+        top:60%;
+    }
+}
+/*PRODUTOS*/
+#produtos #descricao-produto{
+    font-size: 0.9rem;
+}
+
+/*CTA*/
+#cta h2, h5, p{
+    color: #fff;
+}
+.texto-menor{
+    font-size: 13px;
+}
+.cta-item{
+    width: 325px;
+}
+.div-novidades{
+    width: 325px;
+}
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
+
